@@ -1,0 +1,47 @@
+{
+  "name": "image-magician",
+  "version": "1.0.0",
+  "description": "## hello world!",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadomlore/image-magician.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadomlore/image-magician/issues"
+  },
+  "homepage": "https://github.com/vadomlore/image-magician#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/ejs": "^3.0.7",
+    "@types/express-flash": "0.0.2",
+    "@types/express-session": "^1.17.4",
+    "@types/method-override": "0.0.32",
+    "@types/passport": "^1.0.7",
+    "@types/passport-local": "^1.0.34",
+    "D": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.17.5",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9",
+    "ts-node": "^10.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  }
+}
